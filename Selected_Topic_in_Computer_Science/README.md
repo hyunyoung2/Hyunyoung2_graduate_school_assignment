@@ -3,16 +3,46 @@
 
 I used Jupyter Notebook for assignment of this class.
 
+So, I had to convert jupyter notebook to PDF for report. 
 
-So, I had to convert jupyter notebook to PDF. 
+When I did it, I need some configuration to convert from ipynb to PDF
 
-It was annoying me for some configuration of it.
+The following is the process of the configuration for report
 
-So here I write to remember it. 
+First, How to convert jupyter notebook to PDF on command line 
 
-First, How to convert jupyter notebook to PDF 
+> jupyter nbconvert --to pdf file_name.ipynb
 
-jupyter nbconvert --to pdf file_name.ipynb
+And If you use some template, type in like the folowing 
+
+> jupyter nbconvert --to pdf --template what_you_want_to_use file_name.ipynb
+
+
+The following is text cited in help message of jupyter nbconvert
+
+```
+Both HTML and LaTeX support multiple output templates. LaTeX includes
+    'base', 'article' and 'report'.  HTML includes 'basic' and 'full'. You
+    can specify the flavor of the format used.
+    
+    > jupyter nbconvert --to html --template basic mynotebook.ipynb
+```
+
+Above all,  check if the packages were installed 
+
+1. nbconvert 
+
+> pip3 install nbconvert 
+
+2. Pandoc
+
+For converting markdown to formats other than HTML, nbconvert uses [Pandoc](http://pandoc.org/)(1.12.1 or later)
+
+> sudp apt-get install pandoc
+
+After finishing the process above, convert ipynb to other format,in particular, PDF
+
+BUT IF you get error below, continuouslly read the following
 
 when I typed in it, I got this error like the following:
 
@@ -30,9 +60,10 @@ Then, type in it once again as follows
 
 But if encoding of Korean language appears, fit configuation file, **base.tplx**, on the location which is python3.5/site-packages/nbconvert/templates/latex under /usr/lib or .local/lib as follows
 
+```
 \\usepackage{kotex}
 %\usepackage[T1]{fontenc}
-
+```
 
 
 
