@@ -1,6 +1,16 @@
 # Selected Topic in Computer Science
 
 
+If you want to jupyte notebook file and it doesn't work, visit below.
+
+ - [assigment1](https://nbviewer.jupyter.org/github/hyunyoung2/Hyunyoung2_graduate_school_assignment/blob/master/Selected_Topic_in_Computer_Science/Assignment1/Assignment1.ipynb)
+ 
+ - [assigment2](https://nbviewer.jupyter.org/github/hyunyoung2/Hyunyoung2_graduate_school_assignment/blob/master/Selected_Topic_in_Computer_Science/Assignment2/Assignment2.ipynb)
+
+
+
+# How to Change ipynb to pdf
+
 I used Jupyter Notebook for assignment of this class.
 
 So, I had to convert jupyter notebook to PDF for report. 
