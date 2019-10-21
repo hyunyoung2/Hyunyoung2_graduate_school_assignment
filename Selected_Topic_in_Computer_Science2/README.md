@@ -3,12 +3,8 @@
 
 If you want to jupyte notebook file and it doesn't work, visit below.
 
- - [assigment1](https://nbviewer.jupyter.org/github/hyunyoung2/Hyunyoung2_graduate_school_assignment/blob/master/Selected_Topic_in_Computer_Science/Assignment1/Assignment1.ipynb)
+ - [assigment1](https://github.com/hyunyoung2/Hyunyoung2_graduate_school_assignment/tree/master/Selected_Topic_in_Computer_Science2/Assingment1)
  
- - [assigment2](https://nbviewer.jupyter.org/github/hyunyoung2/Hyunyoung2_graduate_school_assignment/blob/master/Selected_Topic_in_Computer_Science/Assignment2/Assignment2.ipynb)
-
-
-
 # How to Change ipynb to pdf
 
 I used Jupyter Notebook for assignment of this class.
